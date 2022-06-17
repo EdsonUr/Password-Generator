@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Password Generator</h1>
+        <!--Início Resultado-->
+        <div class="passwordInfo">
+            <div id ="showPassword">Password</div>
+            <button class="copy" onclick="copyClipboard()">Copy</button>
+        </div>
+        <!--Fim Resultado-->
+        
+        <!--Início Slider (Tamanho da senha)-->
+        <div class="slider">
+            <input id="sliderNumber" type="range" min="4" max="20" value="8" oninput="changeSlider()">
+            <span id="numberLength">8</span>
+        </div>
+        <!--Fim Slider-->
+
+        <!--Início Possibilidades-->
+        <div class="settings">
+            <div class="options">
+                <p>Uppercase Letters (A-Z)</p>
+                <input type="checkbox" id="upper" class="check">
+            </div>
+            <div class="options">
+                <p>Lowercase Letters (a-z)</p>
+                <input type="checkbox" id="lower" class="check">
+            </div>
+            <div class="options">
+                <p>Numbers (0-9)</p>
+                <input type="checkbox" id="numbers" class="check">
+            </div>
+            <div class="options">
+                <p>Special Characters (!-?)</p>
+                <input type="checkbox" id="specials" class="check">
+            </div>
+        </div>
+        <!--Fim Possibilidades-->
+
+        <button class="generate" onclick="generatePassword()">Generate</button>
+
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

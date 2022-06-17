@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #AAA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    color: #FFF;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: rgba(13, 33, 79, 0.8);
+    max-width: 30rem;
+    box-shadow: 0 0 1em black;
+}
+
+.passwordInfo{
+    margin: 4% 0;
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto min-content;
+    border-radius: 10px;
+}
+
+.passwordInfo div{
+    color:black;
+    background-color: #FFF;
+    padding: .5em;
+    border: none;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.passwordInfo button{
+    font-weight: bold;
+    background-color: rgb(70, 117, 187);
+    color: #FFF;
+    padding: .5em;
+    border: 0;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.passwordInfo button:hover{
+    cursor: pointer;
+}
+
+.slider{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    margin-bottom: 0.25rem;
+}
+
+.settings{
+    margin-top: 0.5rem;
+    border-radius: 8px;
+    padding: 0.7em;
+    width: 90%;
+    background-color: rgba(13, 33, 79, 0.5);
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+.options:last-child{
+    padding-bottom: 0;
+}
+
+.generate{
+    text-transform: uppercase;
+    font-weight: bold ;
+    margin-top: 0.8rem;
+    border-radius: 9px;
+    padding: 0.7em;
+    color:#fff;
+    border: none;
+    background-color: rgb(70, 117, 187);
+}
+
+.generate:hover{
+    cursor: pointer;
+}
