@@ -7,7 +7,7 @@
   <h3 align="center">Password Generator</h3>
 
   <p align="center">
-    Create a random passwords with this generator.
+    Create a random password with this generator.
   </p>
 </p>
 
@@ -73,7 +73,7 @@ And then... it's all done. Just paste the password where you want!
 
 Feel welcome to contact me!
 
-## Sreenshots
+## Screenshots
 ---
  <a href="https://github.com/EdsonUr/Password-Generator">
     <img src="assets/ft1.png" alt="Logo">
